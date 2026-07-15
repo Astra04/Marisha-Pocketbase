@@ -1,0 +1,26 @@
+# PocketBase auto-generated data directory (contains live DB state — never commit)
+pb_data/
+
+# Downloaded/compiled PocketBase binary
+pocketbase
+pocketbase.exe
+
+# Secrets & Config
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Docker local overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Logs
+*.log
+
+# Editor & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
